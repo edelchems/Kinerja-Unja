@@ -60,8 +60,7 @@ class SendKinerja{
                     
                 try{
                     $res = $client->post(UrlKinerja::url(), [
-                            'form_params' => $kirimdata,
-                            'debug'=> true
+                            'form_params' => $kirimdata
                     ]);
                     $data_server=json_decode($res->getBody());
                     
