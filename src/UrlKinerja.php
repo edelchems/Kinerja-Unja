@@ -8,7 +8,7 @@ class UrlKinerja{
     }
 
     public static function url($dataset = null){
-        return "http://delcode.id:5050/kinerja/sendkegiatan";
+        return "http://kinerja.unja.ac.id";
         
     }
 }

@@ -23,7 +23,7 @@ class KinerjaUnjaServiceProvider extends ServiceProvider
      */
     public function register()
     {
-        $this->app->make('Edel\KinerjaUnja\SendKinerja');
+        $this->app->make('Edel\KinerjaUnja\Kinerja');
         $this->app->make('Edel\KinerjaUnja\UrlKinerja');
         
     }
